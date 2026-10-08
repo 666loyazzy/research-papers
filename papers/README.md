@@ -4,7 +4,7 @@
 
 - `original/`：公开原文或预印本 PDF。
 - `translated/`：对应的中文单语版与中英双语版。
-- 严格边云论文统一放在 [`edge-cloud-papers`](https://github.com/666loyazzy/-/tree/edge-cloud-papers) 分支。
+- 严格边云论文统一放在 [`edge-cloud-papers`](https://github.com/666loyazzy/research-papers/tree/edge-cloud-papers) 分支。
 
 ## 文件清单
 

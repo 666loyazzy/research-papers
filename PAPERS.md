@@ -25,7 +25,7 @@
 19. **Efficient and Privacy-Aware Edge-Cloud Collaborative Inference for Large Language Models (PrivacyAware)** — 2026
 20. **DynO: Dynamic Onloading of Deep Neural Networks from Cloud to Device** — ACM TECS 2022（按要求保留的历史机制基线）
 
-[查看原文、译文、来源与验收结果](https://github.com/666loyazzy/-/blob/edge-cloud-papers/PAPERS.md)
+[查看原文、译文、来源与验收结果](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md)
 
 ## B. 其它辅助知识（16）
 
@@ -46,7 +46,7 @@
 15. **Kelle** — 无云侧协同执行的边缘 KV/eDRAM 设计
 16. **llm.npu** — 纯端侧异构 NPU 推理
 
-[查看辅助知识分支](https://github.com/666loyazzy/-/blob/other-knowledge/PAPERS.md)
+[查看辅助知识分支](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md)
 
 ## C. 机器人与 ROS 2（12）
 
@@ -63,7 +63,7 @@
 11. **ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras** — 2017
 12. **Past, Present, and Future of Simultaneous Localization and Mapping: Towards the Robust-Perception Age** — 2016
 
-[查看机器人分支](https://github.com/666loyazzy/-/blob/robotics-papers/PAPERS.md)
+[查看机器人分支](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)
 
 ## 计数与维护规则
 
