@@ -1,34 +1,21 @@
-# 中文嵌字译文 / Chinese Translations
+# 中文嵌字译文
 
 仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-本目录所述 16 篇是 `main` 保存的相邻 LLM 系统资料副本；完整辅助知识集合为 25 篇（16 篇相邻 LLM 系统资料 + 9 篇历史 CNN/DNN 资料），见[辅助知识主题索引](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md)。
+本目录对应严格集合 20 篇论文，共 20 份中文版与 20 份双语版；逐篇文件入口见[严格主题索引](../../PAPERS.md)。
 
-本目录包含 `papers/original/` 中 16 篇辅助知识论文的中文嵌字版本，由 [cc-pdf2zh-skill](https://github.com/haorantang1999/cc-pdf2zh-skill)（PDFMathTranslate / pdf2zh v1.9.11）生成。严格边云协同论文统一保存在 `edge-cloud-papers` 分支。
+| 论文 | 中文嵌字版 | 中英双语版 |
+|---|---|---|
+| PipeSD（ICML 2026） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-dual.pdf) |
+| SpecEdge（NeurIPS 2025） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-dual.pdf) |
+
+本目录保存 PDFMathTranslate / pdf2zh 生成的译文：
 
 - `*-mono.pdf`：纯中文版
-- `*-dual.pdf`：中英双语对照版
-- 翻译后端：Google Translate
-- 术语修补：将错误出现的“法学硕士”修正为“大语言模型”
-- 说明：机器翻译仅供阅读辅助；引用、数据与结论请以 `papers/original/` 中原文为准。
+- `*-dual.pdf`：中英双语版
 
-## 文件
+PipeSD（ICML 2026）与 SpecEdge（NeurIPS 2025）采用原版页面内嵌字排版，双语版按同页左右对照提供；正文、图注、表格说明和附录均翻译，图内标注、公式、模型名称与参考文献条目保留原文。
 
-| 论文 | 纯中文 | 中英对照 |
-|---|---|---|
-| AQUA | [mono](./AQUA_ASPLOS25_arXiv2407.21255v3-mono.pdf) | [dual](./AQUA_ASPLOS25_arXiv2407.21255v3-dual.pdf) |
-| Bullet | [mono](./Bullet_ASPLOS26_arXiv2504.19516v4-mono.pdf) | [dual](./Bullet_ASPLOS26_arXiv2504.19516v4-dual.pdf) |
-| DynamoLLM | [mono](./DynamoLLM_HPCA25_arXiv2408.00741v1-mono.pdf) | [dual](./DynamoLLM_HPCA25_arXiv2408.00741v1-dual.pdf) |
-| Helix | [mono](./Helix_ASPLOS25_arXiv2406.01566v2-mono.pdf) | [dual](./Helix_ASPLOS25_arXiv2406.01566v2-dual.pdf) |
-| Kelle | [mono](./Kelle_MICRO25_arXiv2510.16040v1-mono.pdf) | [dual](./Kelle_MICRO25_arXiv2510.16040v1-dual.pdf) |
-| MuxWise | [mono](./MuxWise_ASPLOS26_arXiv2504.14489v3-mono.pdf) | [dual](./MuxWise_ASPLOS26_arXiv2504.14489v3-dual.pdf) |
-| POD-Attention | [mono](./POD-Attention_ASPLOS25_arXiv2410.18038v2-mono.pdf) | [dual](./POD-Attention_ASPLOS25_arXiv2410.18038v2-dual.pdf) |
-| Past-Future Scheduler | [mono](./Past-Future-Scheduler_ASPLOS25_arXiv2507.10150v1-mono.pdf) | [dual](./Past-Future-Scheduler_ASPLOS25_arXiv2507.10150v1-dual.pdf) |
-| QoServe / Niyama | [mono](./QoServe_ASPLOS26_preprint-Niyama-arXiv2503.22562v1-mono.pdf) | [dual](./QoServe_ASPLOS26_preprint-Niyama-arXiv2503.22562v1-dual.pdf) |
-| Shift Parallelism | [mono](./Shift-Parallelism_ASPLOS26_arXiv2509.16495v2-mono.pdf) | [dual](./Shift-Parallelism_ASPLOS26_arXiv2509.16495v2-dual.pdf) |
-| Splitwise | [mono](./Splitwise_ISCA24_arXiv2311.18677v2-mono.pdf) | [dual](./Splitwise_ISCA24_arXiv2311.18677v2-dual.pdf) |
-| SwiftSpec | [mono](./SwiftSpec_ASPLOS26_arXiv2506.11309v1-mono.pdf) | [dual](./SwiftSpec_ASPLOS26_arXiv2506.11309v1-dual.pdf) |
-| TPLA | [mono](./TPLA_ASPLOS26_arXiv2508.15881v2-mono.pdf) | [dual](./TPLA_ASPLOS26_arXiv2508.15881v2-dual.pdf) |
-| XY-Serve | [mono](./XY-Serve_ASPLOS26_preprint-arXiv2412.18106v1-mono.pdf) | [dual](./XY-Serve_ASPLOS26_preprint-arXiv2412.18106v1-dual.pdf) |
-| llm.npu | [mono](./llm.npu_ASPLOS25_arXiv2407.05858v2-mono.pdf) | [dual](./llm.npu_ASPLOS25_arXiv2407.05858v2-dual.pdf) |
-| vAttention | [mono](./vAttention_ASPLOS25_arXiv2405.04437v3-mono.pdf) | [dual](./vAttention_ASPLOS25_arXiv2405.04437v3-dual.pdf) |
+术语通过专用 AI/边云协同词表统一修补；中文字体必须嵌入 PDF，并通过 `pdffonts`、文本提取和逐页渲染检查后才可提交。机器翻译仅供阅读，引用与结论以 `papers/original/` 原文为准。
+
+新增译文隐藏原文链接注释边框，保留链接目标与图内彩色图形，避免正文重排后的框线错位。

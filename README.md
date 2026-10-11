@@ -2,7 +2,7 @@
 
 仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-本仓库整理严格端/边—云协同 LLM、其它边云与 LLM 系统辅助知识、机器人与 ROS 2 三类资料。`main` 是总入口，并保存 16 篇相邻 LLM 系统资料的文件副本；完整论文集合由三个主题分支维护。
+本仓库整理严格端/边—云协同 LLM、其它边云与 LLM 系统辅助知识、机器人与 ROS 2 三类资料。`main` 是默认入口，`papers/` 直接提供当前 20 篇严格边云论文的原文、中文嵌字版和双语版，与 `edge-cloud-papers` 使用同一套文件。辅助知识和机器人资料分别保存在对应主题分支。
 
 ## 分支导航
 
@@ -16,12 +16,12 @@
 
 ## 最新译文
 
-PipeSD 和 SpecEdge 已纳入严格集合，严格集合仍为 20 篇。两篇均提供原版页面内嵌字的中文 PDF 和同页左右对照的双语 PDF，来源与排版检查记录见 [QA 报告](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/QA_REPORT.md)。
+PipeSD 和 SpecEdge 已纳入严格集合，严格集合仍为 20 篇。两篇均提供原版页面内嵌字的中文 PDF 和同页左右对照的双语 PDF，来源与排版检查记录见 [QA 报告](papers/QA_REPORT.md)。
 
 | 论文 | 中文嵌字版 | 中英双语版 |
 |---|---|---|
-| PipeSD（ICML 2026） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-dual.pdf) |
-| SpecEdge（NeurIPS 2025） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-dual.pdf) |
+| PipeSD（ICML 2026） | [中文](papers/translated/PipeSD_ICML26-mono.pdf) | [双语](papers/translated/PipeSD_ICML26-dual.pdf) |
+| SpecEdge（NeurIPS 2025） | [中文](papers/translated/SpecEdge_NeurIPS25-mono.pdf) | [双语](papers/translated/SpecEdge_NeurIPS25-dual.pdf) |
 
 ## Strict Edge-Cloud Collaborative LLM Paper Index (20)
 
@@ -68,7 +68,13 @@ PipeSD 和 SpecEdge 已纳入严格集合，严格集合仍为 20 篇。两篇�
 
 ## 本分支文件
 
-`main/papers/` 保存 16 篇相邻 LLM 系统资料的副本，文件见 [`papers/README.md`](papers/README.md)。完整辅助知识集合共有 25 篇，另 9 篇历史 CNN/DNN 资料位于 [`other-knowledge`](https://github.com/666loyazzy/research-papers/tree/other-knowledge)。
+在 `main` 的文件页面直接打开以下目录，即可查看当前严格边云集合，无需切换分支：
+
+- [`papers/original/`](papers/original/)：20 篇当前原文。
+- [`papers/translated/`](papers/translated/)：20 份中文嵌字版和 20 份中英双语版，含 PipeSD、SpecEdge。
+- [`papers/README.md`](papers/README.md)：目录说明；[`papers/SOURCES.tsv`](papers/SOURCES.tsv)：公开来源；[`papers/QA_REPORT.md`](papers/QA_REPORT.md)：翻译验收记录。
+
+辅助知识的 25 篇原文与译文统一从 [`other-knowledge`](https://github.com/666loyazzy/research-papers/tree/other-knowledge/papers) 进入。`main` 的目录只展示当前严格边云集合。
 
 ## 分类与翻译规则
 
