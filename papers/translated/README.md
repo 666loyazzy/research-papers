@@ -1,5 +1,9 @@
 # 中文嵌字译文 / Chinese Translations
 
+仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+
+本目录所述 16 篇是 `main` 保存的相邻 LLM 系统资料副本；完整辅助知识集合为 25 篇（16 篇相邻 LLM 系统资料 + 9 篇历史 CNN/DNN 资料），见[辅助知识主题索引](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md)。
+
 本目录包含 `papers/original/` 中 16 篇辅助知识论文的中文嵌字版本，由 [cc-pdf2zh-skill](https://github.com/haorantang1999/cc-pdf2zh-skill)（PDFMathTranslate / pdf2zh v1.9.11）生成。严格边云协同论文统一保存在 `edge-cloud-papers` 分支。
 
 - `*-mono.pdf`：纯中文版
