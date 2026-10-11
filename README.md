@@ -1,5 +1,7 @@
 # Strict Edge-Cloud Collaborative LLM Papers
 
+仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+
 本分支只收录端/边设备与云/服务器共同完成同一次 LLM/MLLM 推理输出的论文。标题里出现 `edge`、单纯把请求路由到某一侧、纯端侧推理、纯云端 serving、通用 KV-cache/内存/GPU 集群优化都不计入。
 
 ## 当前规模
@@ -9,7 +11,7 @@
 - LLM/MLLM 严格协同：19 篇；DynO 按要求作为历史机制基线保留 1 篇
 - 正式会议/期刊论文优先：ISCA、ICML、NeurIPS、INFOCOM、ACL、WWW、IWQoS、SoCC、UCC、IEEE TMC、IEEE IoT Journal 等
 - 每篇均提供公开原文、中文嵌字版（`-mono.pdf`）和中英双语版（`-dual.pdf`）
-- 最新替换：PipeSD（ICML 2026）替换 BatteryAwareSpec；SpecEdge（NeurIPS 2025）替换 SplitLLM，清单仍为 20 篇
+- 最新收录：PipeSD（ICML 2026）与 SpecEdge（NeurIPS 2025），严格清单仍为 20 篇
 
 ## 核心研究线
 

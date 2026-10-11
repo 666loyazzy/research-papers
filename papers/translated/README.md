@@ -1,5 +1,14 @@
 # 中文嵌字译文
 
+仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+
+本目录对应严格集合 20 篇论文，共 20 份中文版与 20 份双语版；逐篇文件入口见[严格主题索引](../../PAPERS.md)。
+
+| 论文 | 中文嵌字版 | 中英双语版 |
+|---|---|---|
+| PipeSD（ICML 2026） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/PipeSD_ICML26-dual.pdf) |
+| SpecEdge（NeurIPS 2025） | [中文](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-mono.pdf) | [双语](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/papers/translated/SpecEdge_NeurIPS25-dual.pdf) |
+
 本目录保存 PDFMathTranslate / pdf2zh 生成的译文：
 
 - `*-mono.pdf`：纯中文版

@@ -1,5 +1,7 @@
 # Strict Edge-Cloud Collaborative LLM Paper Index (20)
 
+仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+
 ## A. 顶会/正式发表优先
 
 1. **DynoPipe: Heterogeneous Edge-Cloud LLM Serving with Dynamically Orchestrated Pipeline Boundaries** — ISCA 2026 — [原文](papers/original/DynoPipe_ISCA26.pdf) · [中文](papers/translated/DynoPipe_ISCA26-mono.pdf) · [双语](papers/translated/DynoPipe_ISCA26-dual.pdf)
