@@ -1,8 +1,8 @@
-# 机器人与 ROS 2 论文选读 - 第 1 期
+# 机器人与 ROS 2 论文选读
 
-仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+仓库导航：[总索引（58 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（13 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-本期共 **12 篇**。每项均提供原文、纯中文嵌字版、中英双语版、规范引用和阅读提示。
+当前共 **13 篇**：第 1 期 12 篇，以及第 2 期的 SAC。每项均提供原文、纯中文嵌字版、中英双语版、规范引用和阅读提示。
 
 ## 1. 机器人算法与 Python 实现
 
@@ -168,3 +168,20 @@ IEEE Transactions on Robotics, 2016, 32(6): 1309-1332. DOI: `10.1109/TRO.2016.26
 - [阅读提示](notes/SLAM-Robust-Perception.md)
 
 作为课程后半段的知识地图，先读引言、系统划分、鲁棒性与开放问题；不要求首次阅读掌握全部数学推导。
+
+## 13. 最大熵强化学习与连续控制（第 2 期第 8 篇）
+
+**Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**
+
+Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, Sergey Levine
+
+ICML 2018, PMLR 80:1861-1870（正式发表版，10 页）
+
+- [原文 PDF](papers/original/SAC_ICML18.pdf)
+- [纯中文嵌字版](papers/translated/SAC_ICML18-mono.pdf)
+- [中英双语版](papers/translated/SAC_ICML18-dual.pdf)
+- [PMLR 原文与引用](https://proceedings.mlr.press/v80/haarnoja18b.html)
+- [阅读提示](notes/SAC.md)
+- [翻译和排版检查](papers/SAC_QA_REPORT.md)
+
+围绕最大熵目标、离策略数据复用和随机策略，分析样本效率与训练稳定性。阅读报告可直接分析原文实验，无需自行复现。本文是 2018 年含独立状态价值网络的 SAC 版本；阅读时应与后续自动温度调节版本区分。

@@ -1,8 +1,8 @@
 # PDF 来源与校验
 
-仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+仓库导航：[总索引（58 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（13 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-更新时间：2026-09-09。当前共 **12 篇原文、12 份纯中文嵌字版、12 份中英双语版**。
+更新时间：2026-10-25。当前共 **13 篇原文、13 份纯中文嵌字版、13 份中英双语版**。
 
 | # | 论文 | 公共来源 | 原文页数 | 中文页数 | 双语页数 |
 |---:|---|---|---:|---:|---:|
@@ -18,20 +18,24 @@
 | 10 | KISS-ICP | [University of Bonn 作者 PDF](https://www.ipb.uni-bonn.de/pdfs/vizzo2023ral.pdf) | 8 | 8 | 16 |
 | 11 | ORB-SLAM2 | [arXiv:1610.06475](https://arxiv.org/abs/1610.06475) | 9 | 8 | 16 |
 | 12 | SLAM Robust-Perception Survey | [University of Zurich 作者 PDF](https://rpg.ifi.uzh.ch/docs/TRO16_cadena.pdf) | 24 | 24 | 48 |
+| 13 | Soft Actor-Critic（SAC） | [PMLR 80:1861-1870](https://proceedings.mlr.press/v80/haarnoja18b.html) | 10 | 10 | 20 |
 
 双语版采用“英文原页 + 中文译页”逐页配对。ORB-SLAM2 原文第 1 页为版权封面，译文略去该页，因此其中文版本为 8 页、双语版本为 16 页。
 
 ## 目录
 
-- [`original/`](original/) - 12 篇原文 PDF
+- [`original/`](original/) - 13 篇原文 PDF
 - [`translated/`](translated/) - 纯中文与中英双语 PDF
-- [`SHA256SUMS.txt`](SHA256SUMS.txt) - 36 个 PDF 的 SHA-256 校验值
+- [`SHA256SUMS.txt`](SHA256SUMS.txt) - 39 个 PDF 的 SHA-256 校验值
+
+SAC 的版本来源、字体嵌入与逐页渲染检查见 [SAC_QA_REPORT.md](SAC_QA_REPORT.md)。
 
 ## 翻译与检查
 
 - 工具：PDFMathTranslate / `pdf2zh`
 - 语言：English -> Chinese
-- 服务：Google Translate
-- 检查：所有 PDF 均可由 Poppler 打开；中文版本页数与正文一致；双语版本页数为中文版本的两倍；新增译文完成逐页缩略图和双语首/中/尾页渲染检查。
+- 第 1 期 12 篇：Google Translate
+- 新增 SAC：当前对话模型翻译 + paper-translate-agent-skill 本地排版，无需额外翻译 API 或密钥
+- 检查：PDF 可解析、页数和页面尺寸正确；中文版本页数与正文一致；双语版本页数为中文版本的两倍；新增译文完成逐页缩略图和双语首/中/尾页渲染检查。
 
 机器翻译仅用于辅助阅读；论文数据、公式、引用与结论请以原文为准。著作权归原作者及出版机构所有。

@@ -1,8 +1,8 @@
 # Reading notes
 
-仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+仓库导航：[总索引（58 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（13 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-本目录对应机器人主题的 12 篇论文；完整论文、原文与译文见 [`../PAPERS.md`](../PAPERS.md)。
+本目录对应机器人主题的 13 篇论文；完整论文、原文与译文见 [`../PAPERS.md`](../PAPERS.md)。
 
 - [`PythonRobotics.md`](PythonRobotics.md) - 算法输入输出、参数与动画
 - [`ROS2-Architecture.md`](ROS2-Architecture.md) - 节点、话题、DDS、QoS 与系统案例
@@ -16,5 +16,7 @@
 - [`KISS-ICP.md`](KISS-ICP.md) - 相邻点云、刚体运动与点到点 ICP
 - [`ORB-SLAM2.md`](ORB-SLAM2.md) - 跟踪、局部建图、回环与重定位
 - [`SLAM-Robust-Perception.md`](SLAM-Robust-Perception.md) - SLAM 知识地图、鲁棒性与开放问题
+
+- [`SAC.md`](SAC.md) - 最大熵目标、经验回放、连续控制与实验解读
 
 建议每篇按“问题是什么 -> 输入输出是什么 -> 核心模块怎样连接 -> 实验怎样证明 -> 方法在哪里会失效”的顺序记录。

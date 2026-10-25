@@ -1,8 +1,8 @@
 # 中文嵌字译文
 
-仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+仓库导航：[总索引（58 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（13 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-本目录收录 12 篇论文的两种 PDFMathTranslate 输出：
+本目录收录 13 篇论文的两种 PDFMathTranslate 输出：
 
 - `*-mono.pdf`：纯中文嵌字版
 - `*-dual.pdf`：英文原页与中文译页配对的双语版
@@ -21,5 +21,6 @@
 | KISS-ICP | [mono](KISS-ICP_RAL2023-mono.pdf) | [dual](KISS-ICP_RAL2023-dual.pdf) |
 | ORB-SLAM2 | [mono](ORB-SLAM2_TRO2017_arXiv1610.06475v1-mono.pdf) | [dual](ORB-SLAM2_TRO2017_arXiv1610.06475v1-dual.pdf) |
 | SLAM Robust-Perception Survey | [mono](SLAM-Robust-Perception_TRO2016-mono.pdf) | [dual](SLAM-Robust-Perception_TRO2016-dual.pdf) |
+| Soft Actor-Critic（SAC） | [mono](SAC_ICML18-mono.pdf) | [dual](SAC_ICML18-dual.pdf) |
 
 机器翻译仅供辅助阅读，引用、公式和实验数据请以原文为准。

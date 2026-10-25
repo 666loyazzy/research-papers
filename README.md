@@ -1,17 +1,17 @@
 # Awesome Robotics & ROS 2 Papers
 
-仓库导航：[总索引（57 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（12 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
+仓库导航：[总索引（58 篇）](https://github.com/666loyazzy/research-papers/blob/main/PAPERS.md) · [严格边云（20 篇）](https://github.com/666loyazzy/research-papers/blob/edge-cloud-papers/PAPERS.md) · [辅助知识（25 篇）](https://github.com/666loyazzy/research-papers/blob/other-knowledge/PAPERS.md) · [机器人与 ROS 2（13 篇）](https://github.com/666loyazzy/research-papers/blob/robotics-papers/PAPERS.md)。
 
-机器人与 ROS 2 论文选读仓库。当前收录课程“论文选读·第 1 期”的 **12 篇论文**，覆盖算法实现、ROS 2 架构、传感器、点云、定位建图、路径规划、导航控制和卡尔曼滤波。
+机器人与 ROS 2 论文选读仓库。当前收录课程“论文选读·第 1 期”的 12 篇论文，以及第 2 期的 SAC，共 **13 篇论文**，覆盖算法实现、ROS 2 架构、传感器、点云、定位建图、路径规划、导航控制和卡尔曼滤波。
 
 每篇论文统一整理：原文 PDF、纯中文嵌字版、中英双语版、BibTeX 引用和阅读提示。
 
 ## 分支导航
 
-- [`main`](https://github.com/666loyazzy/research-papers/tree/main) - 总入口，57 篇不重复论文
+- [`main`](https://github.com/666loyazzy/research-papers/tree/main) - 总入口，58 篇不重复论文
 - [`edge-cloud-papers`](https://github.com/666loyazzy/research-papers/tree/edge-cloud-papers) - 严格边云协同集合，20 篇，含 PipeSD 与 SpecEdge
 - [`other-knowledge`](https://github.com/666loyazzy/research-papers/tree/other-knowledge) - 辅助知识，25 篇
-- [`robotics-papers`](https://github.com/666loyazzy/research-papers/tree/robotics-papers) - 机器人与 ROS 2，12 篇（当前分支）
+- [`robotics-papers`](https://github.com/666loyazzy/research-papers/tree/robotics-papers) - 机器人与 ROS 2，13 篇（当前分支）
 
 ## 第 1 期论文清单
 
@@ -30,6 +30,12 @@
 | 11 | 视觉 SLAM 系统 | ORB-SLAM2 | 2017 |
 | 12 | SLAM 整体知识框架 | Past, Present, and Future of SLAM | 2016 |
 
+## 第 2 期补充论文
+
+| 课程编号 | 主题 | 论文 | 年份 |
+|---:|---|---|---:|
+| 8 | 最大熵强化学习与连续控制 | [Soft Actor-Critic（SAC）](PAPERS.md#13-最大熵强化学习与连续控制第-2-期第-8-篇) | 2018 |
+
 ## 建议阅读路线
 
 无需按编号顺序读。初学路线可按以下顺序：
@@ -43,7 +49,7 @@
 
 ## 仓库文件
 
-- [`PAPERS.md`](PAPERS.md) - 12 篇论文的完整索引、来源、译文和阅读提示
+- [`PAPERS.md`](PAPERS.md) - 13 篇论文的完整索引、来源、译文和阅读提示
 - [`references.bib`](references.bib) - 可直接用于 Overleaf 的 BibTeX
 - [`papers/original/`](papers/original/) - 原文 PDF
 - [`papers/translated/`](papers/translated/) - 纯中文嵌字版与中英双语版
@@ -52,6 +58,6 @@
 
 ## 翻译说明
 
-译文使用 PDFMathTranslate / `pdf2zh`（英文到中文、Google 翻译服务）生成，尽量保留公式、图表和原版布局。仓库对输出 PDF 进行可打开性、页数与页面渲染检查。
+第 1 期的 12 篇译文使用 PDFMathTranslate / `pdf2zh` 和 Google 翻译服务生成。新增 SAC 使用 [paper-translate-agent-skill](https://github.com/AIKONG2024/paper-translate-agent-skill/tree/main/pdf-translate)：由当前对话模型翻译，本地 `pdf2zh` 负责排版，无需另配翻译 API 或密钥。SAC 保留公式与原始矢量图，中文字体已嵌入，完成 10 页逐页检查，详见 [检查记录](papers/SAC_QA_REPORT.md)。
 
 PDF 著作权归原作者及出版机构所有，本仓库仅用于个人学习与学术研究。
